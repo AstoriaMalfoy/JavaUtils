@@ -11,9 +11,6 @@ import lombok.Data;
 public class MemoryOffsetCalculator {
 
 
-
-
-
     private enum Type {
         BYTE(1),
         K_BYTE(BYTE.getSize() * 1024),
